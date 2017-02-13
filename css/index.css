@@ -2,7 +2,7 @@
 
 body {
   margin:0;
-  background: #eee;
+  background: white;
   height:100%;
 }
 /* nav bar */
@@ -185,7 +185,7 @@ a.control_next {
   display: inline;
   height: auto;
   width: 20%;
-  padding-top: 7%;
+  padding-top: 75px;
   padding-right: 5%;
 }
 
@@ -226,7 +226,7 @@ a.control_next {
   border-style: solid;
   border-color: black;
   overflow: auto;
-  height: 200px;
+  height: 150px;
 }
 
 /* footer stays at bottom */
@@ -290,4 +290,37 @@ a.control_next {
     display: block;
     text-align: right;
   }
+  #mama {display: none;}
+  #blurb {width: 90%;}
 }
+
+
+@media screen and (max-width:900px) {
+  #page-header h1 a {
+    float: none;
+    text-align: center;
+  }
+  #about {
+    width: 100%;
+  }
+  #h1 {margin-top: 75px;}
+  section.banner {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width:650px) {
+  .gallery {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  #blurb {font-size: 20px;}
+  #content {height: 900px;}
+  div.slick-list.dragable {height: 200px;}
+  }
+
+@media screen and (max-width:350px) {
+  #content {height: 1100px;}
+  }

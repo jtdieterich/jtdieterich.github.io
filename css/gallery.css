@@ -175,9 +175,7 @@
     float: none;
     display: block;
   }
-  ul.topnav.responsive li a {
-    display: block;
-    text-align: left;
-  }
+  .circle {display: none;}
+  .splatter {display: none;}
 }
 

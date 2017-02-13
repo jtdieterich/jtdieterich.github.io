@@ -204,3 +204,35 @@
     opacity: .75;
     color: black;
 }
+
+@media screen and (max-width:850px) {
+    .slick-prev {
+        margin-left: 90px;
+    }
+    .slick-next {
+        margin-right: 90px;
+    }
+    .slick-dots {
+        padding-bottom: 55px;
+}
+
+@media screen and (max-width:650px) {
+    .slick-next {
+        display: none;
+    }
+    .slick-prev {
+        display: none;
+    }
+    .slick-dots {
+        padding-bottom: 600px;
+    }
+}
+@media screen and (max-width:500px) {
+    section.banner {
+        height: auto;
+    }
+    ul.slick-dots {width: 180px;}
+}
+@media screen and (max-width:340px) {
+    .slick-dots {width: 75%;}
+  }
